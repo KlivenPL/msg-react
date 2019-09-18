@@ -1,0 +1,9 @@
+{
+    "friends":[
+        {"name":"Oskar", "surname":"Hącel"},
+        {"name":"Adam", "surname":"Wierzbicki"},
+        {"name":"Janusz", "surname":"Danis"},
+        {"name":"Paulina", "surname":"Markiewicz"},
+        {"name":"Wałach", "surname":"Wałachowski"}
+    ]
+}
