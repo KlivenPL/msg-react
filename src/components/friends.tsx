@@ -1,14 +1,16 @@
-import React, {Component} from 'react';
 import Friend from './friend';
+import React, { Component } from 'react';
 
 
 
 export default class Friends extends Component<{}, {friends:Array<Friend>}>{
+    static FriendsList:Array<Friend>;
     constructor(props:any){
         super(props);
         this.state ={
             friends:Array<Friend>()
         };
+        Friends.FriendsList = this.state.friends;
        // var fs = require('fs');
 
        /* try {

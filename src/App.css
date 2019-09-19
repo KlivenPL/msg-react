@@ -36,6 +36,16 @@
   text-align: right;
 }
 
+.title{
+  margin-top: 20px;
+  font-size:32px;
+  border-style:dotted;
+  width:1000px;
+  align-self:center;
+  align-content: center;
+  text-align: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
